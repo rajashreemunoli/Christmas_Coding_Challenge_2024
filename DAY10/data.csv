@@ -1,0 +1,101 @@
+Date,Store,Region,Product_Type,Sales,Units_Sold
+18-12-2024,Store E,South,Real Tree,336,25
+17-12-2024,Store D,East,Artificial Tree,339,11
+11-12-2024,Store E,South,Decorations,231,19
+07-12-2024,Store A,North,Real Tree,393,69
+08-12-2024,Store B,NorthEast,Artificial Tree,234,14
+08-12-2024,Store A,North,Decorations,159,75
+23-12-2024,Store E,South,Real Tree,196,38
+25-12-2024,Store A,North,Artificial Tree,263,100
+23-12-2024,Store A,North,Decorations,353,61
+19-12-2024,Store E,South,Real Tree,222,77
+02-12-2024,Store C,West,Artificial Tree,170,24
+16-12-2024,Store A,North,Decorations,202,27
+06-12-2024,Store B,NorthEast,Real Tree,254,35
+28-12-2024,Store E,South,Artificial Tree,262,48
+25-12-2024,Store E,South,Decorations,126,82
+24-12-2024,Store D,East,Real Tree,494,16
+15-12-2024,Store E,South,Artificial Tree,377,63
+19-12-2024,Store B,NorthEast,Decorations,311,17
+07-12-2024,Store D,East,Real Tree,400,48
+19-12-2024,Store A,North,Artificial Tree,385,76
+14-12-2024,Store C,West,Real Tree,288,64
+16-12-2024,Store E,South,Artificial Tree,356,52
+19-12-2024,Store C,West,Decorations,445,41
+28-12-2024,Store D,East,Real Tree,210,70
+30-12-2024,Store D,East,Artificial Tree,359,14
+09-12-2024,Store A,North,Decorations,380,69
+06-12-2024,Store E,South,Real Tree,412,55
+08-12-2024,Store E,South,Artificial Tree,115,48
+23-12-2024,Store E,South,Decorations,314,36
+16-12-2024,Store E,South,Real Tree,189,16
+22-12-2024,Store D,East,Artificial Tree,387,80
+07-12-2024,Store D,East,Decorations,481,58
+06-12-2024,Store E,South,Real Tree,102,71
+23-12-2024,Store D,East,Artificial Tree,332,56
+03-12-2024,Store E,South,Decorations,302,56
+10-12-2024,Store A,North,Real Tree,321,75
+12-12-2024,Store D,East,Artificial Tree,373,42
+05-12-2024,Store D,East,Decorations,456,26
+12-12-2024,Store A,North,Real Tree,155,31
+14-12-2024,Store D,East,Artificial Tree,341,22
+22-12-2024,Store D,East,Real Tree,268,61
+26-12-2024,Store B,NorthEast,Artificial Tree,333,34
+22-12-2024,Store C,West,Decorations,459,14
+30-12-2024,Store E,South,Real Tree,476,46
+03-12-2024,Store E,South,Real Tree,144,55
+15-12-2024,Store C,West,Artificial Tree,440,28
+09-12-2024,Store A,North,Decorations,439,97
+11-12-2024,Store A,North,Real Tree,359,32
+19-12-2024,Store D,East,Artificial Tree,176,59
+14-12-2024,Store D,East,Decorations,160,85
+24-12-2024,Store C,West,Real Tree,139,18
+19-12-2024,Store C,West,Artificial Tree,163,87
+10-12-2024,Store E,South,Decorations,209,81
+23-12-2024,Store D,East,Real Tree,467,81
+27-12-2024,Store C,West,Artificial Tree,404,86
+13-12-2024,Store C,West,Decorations,446,71
+29-12-2024,Store B,NorthEast,Real Tree,261,14
+26-12-2024,Store D,East,Artificial Tree,165,86
+25-12-2024,Store D,East,Decorations,194,75
+14-12-2024,Store B,NorthEast,Real Tree,362,48
+25-12-2024,Store B,NorthEast,Artificial Tree,394,90
+11-12-2024,Store D,East,Decorations,203,94
+16-12-2024,Store B,NorthEast,Real Tree,431,26
+15-12-2024,Store B,NorthEast,Artificial Tree,127,20
+10-12-2024,Store C,West,Real Tree,437,25
+05-12-2024,Store B,NorthEast,Artificial Tree,482,12
+21-12-2024,Store B,NorthEast,Decorations,189,87
+14-12-2024,Store A,North,Real Tree,446,86
+22-12-2024,Store E,South,Artificial Tree,379,44
+21-12-2024,Store D,East,Decorations,338,62
+04-12-2024,Store A,North,Real Tree,291,11
+12-12-2024,Store D,East,Artificial Tree,358,17
+21-12-2024,Store D,East,Decorations,327,43
+24-12-2024,Store E,South,Real Tree,373,14
+09-12-2024,Store C,West,Artificial Tree,236,88
+30-12-2024,Store C,West,Decorations,169,95
+01-12-2024,Store B,NorthEast,Real Tree,214,58
+11-12-2024,Store A,North,Artificial Tree,418,39
+13-12-2024,Store B,NorthEast,Decorations,488,84
+02-12-2024,Store D,East,Real Tree,288,90
+02-12-2024,Store B,NorthEast,Artificial Tree,418,22
+03-12-2024,Store C,West,Decorations,268,91
+04-12-2024,Store D,East,Real Tree,444,55
+25-12-2024,Store D,East,Artificial Tree,338,93
+02-12-2024,Store B,NorthEast,Real Tree,226,80
+04-12-2024,Store C,West,Artificial Tree,331,52
+16-12-2024,Store E,South,Decorations,256,24
+22-12-2024,Store C,West,Real Tree,316,66
+23-12-2024,Store B,NorthEast,Real Tree,118,89
+26-12-2024,Store A,North,Artificial Tree,272,49
+23-12-2024,Store C,West,Decorations,130,89
+16-12-2024,Store B,NorthEast,Real Tree,147,16
+18-12-2024,Store C,West,Artificial Tree,209,10
+20-12-2024,Store E,South,Decorations,286,76
+25-12-2024,Store A,North,Real Tree,261,51
+30-12-2024,Store C,West,Artificial Tree,397,40
+16-12-2024,Store E,South,Decorations,342,15
+27-12-2024,Store C,West,Real Tree,295,67
+22-12-2024,Store C,West,Artificial Tree,244,23
+13-12-2024,Store D,East,Decorations,469,25
