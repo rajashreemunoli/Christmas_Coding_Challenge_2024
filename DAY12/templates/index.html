@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎄 Christmas Countdown 🎄</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .countdown {
+            font-size: 2rem;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .highlight {
+            color: #e3ac14;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎄Christmas Countdown 🎄</h1>
+    <div class="countdown" id="countdown">
+        Calculating time left...
+    </div>
+    <footer>
+        <p>✨ Made with ❤️ for the holiday spirit! ✨</p>
+    </footer>
+
+    <script>
+        // Get the Christmas date from the server
+        const christmasDate = new Date("{{ christmas_date }}");
+
+        function updateCountdown() {
+            // Get the current time
+            const now = new Date();
+
+            // Calculate the time difference
+            const timeLeft = christmasDate - now;
+
+            if (timeLeft <= 0) {
+                document.getElementById("countdown").innerHTML = "Merry Christmas! 🎄🎅";
+                return;
+            }
+
+            // Calculate days, hours, minutes, and seconds
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+            // Update the countdown timer
+            document.getElementById("countdown").innerHTML = `
+                <span class="highlight">${days}</span> days, 
+                <span class="highlight">${hours}</span> hours, 
+                <span class="highlight">${minutes}</span> minutes, 
+                <span class="highlight">${seconds}</span> seconds left until Christmas 🎄🎅!
+            `;
+        }
+
+        // Update the countdown every second
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>
